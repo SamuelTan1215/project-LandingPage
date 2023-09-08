@@ -1,0 +1,17 @@
+
+@import "./bootstrap-scss/bootstrap.scss";
+@import "./components/header";
+@import "../scss/components/utilities";
+@import "../scss/components/deco-line";
+@import "../scss/components/custom-button";
+
+body{
+    font-family:'Noto Sans', sans-serif;
+}
+.fs-48{
+    font-size: 48px;
+}
+.accordion{
+    height: 80vh; /* 使用视口高度的80% */
+    overflow-y: auto;
+}
