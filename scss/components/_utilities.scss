@@ -511,13 +511,13 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
-
+    // custom 沒有生效
     "font-size-static": (
       rfs: true,
       property: font-size,
       class: fs-s,
       values: (
-        48:48px
+        36:36px
       )
     ),
 

@@ -75,11 +75,12 @@ $utilities: map-merge(
     // scss-docs-start utils-shadow
     "shadow": (
       property: box-shadow,
+      responsive: true,
       class: shadow,
       values: (
         null: $box-shadow,
         sm: $box-shadow-sm,
-        lg: $box-shadow-lg,
+        //lg: $box-shadow-lg,custom 尺寸換中斷點
         none: none,
       )
     ),
@@ -510,6 +511,16 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
+      // custom
+    "font-size-static": (
+      rfs: true,
+      property: font-size,
+      class: fs-s,
+      values: (
+        48:48px
+      )
+    ),
+
     "font-style": (
       property: font-style,
       class: fst,

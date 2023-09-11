@@ -8191,11 +8191,6 @@ textarea.form-control-lg {
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow-lg {
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-}
-
 .shadow-none {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -9288,6 +9283,10 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-s-48 {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -10151,6 +10150,18 @@ textarea.form-control-lg {
   .d-sm-none {
     display: none !important;
   }
+  .shadow-sm {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-sm-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow-sm-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -10793,6 +10804,18 @@ textarea.form-control-lg {
   }
   .d-md-none {
     display: none !important;
+  }
+  .shadow-md {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-md-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow-md-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
   }
   .flex-md-fill {
     -webkit-box-flex: 1 !important;
@@ -11437,6 +11460,18 @@ textarea.form-control-lg {
   .d-lg-none {
     display: none !important;
   }
+  .shadow-lg {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-lg-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow-lg-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -12079,6 +12114,18 @@ textarea.form-control-lg {
   }
   .d-xl-none {
     display: none !important;
+  }
+  .shadow-xl {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-xl-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow-xl-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
   }
   .flex-xl-fill {
     -webkit-box-flex: 1 !important;
@@ -12723,6 +12770,18 @@ textarea.form-control-lg {
   .d-xxl-none {
     display: none !important;
   }
+  .shadow-xxl {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-xxl-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow-xxl-none {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -13311,6 +13370,9 @@ textarea.form-control-lg {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .fs-s-48 {
+    font-size: 3rem !important;
   }
 }
 @media print {
