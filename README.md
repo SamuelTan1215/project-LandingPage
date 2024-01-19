@@ -1,7 +1,7 @@
 # 小懶蟲 - RWD一頁式網站（Bootstrap）
 
 #### 作品鏈接
-[作品鏈接](https://samueltan1215.github.io/project-HexRWD/index.html "作品鏈接")
+[作品鏈接](https://samueltan1215.github.io/project-LandingPage/ "作品鏈接")
 
 ------------
 #### 作品頁面
